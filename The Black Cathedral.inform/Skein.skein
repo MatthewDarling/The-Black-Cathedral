@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x08F7BE10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x08F7C200"/>
+  <item nodeId="node-0x08F7BE10">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">You awaken with a start on a strange, flat surface made of one continuous piece of stone. You've never seen this place before. In fact, you don't remember how you got here. You suspect you may be dreaming. However, your grandmother always put great stock in the power of dreams. She claimed they always happen for a reason, and you had best figure out that reason before consciousness returns you to your bed.&#x000A;&#x000A;The Black Cathedral&#x000A;A game created for a four hour IF jam by Matthew Darling&#x000A;Release 1 / Serial number 120903 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Expanse&#x000A;Looking around, you see nothing but the absurdly large - and absurdly flat - expanse of white stone. Nothing is visible to the south or to the west. Far to the east, where the ground meets the horizon, you see a collection of small, sharp bumps - a distant mountain range, perhaps? To the north, you see a faint shimmer on the horizon - as if the air itself is dancing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x08F7C580"/>
+      <child nodeId="node-0x08F7C7B0"/>
+      <child nodeId="node-0x08F7C200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C580">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">It would take too long to go back. Better to forge ahead and see what lies on your chosen path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C6D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C6D0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">It would take too long to go back. Better to forge ahead and see what lies on your chosen path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08F7C7B0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">The strange stone stretches before you, flat and featureless. Nothing interesting appears to lie in this direction, so you decide to stay where you are.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C740">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">The strange stone stretches before you, flat and featureless. Nothing interesting appears to lie in this direction, so you decide to stay where you are.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C5F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C5F0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Entrance&#x000A;After a long walk, you arrive at the gate of a massive cathedral. The air shimmers around its edges, but the cathedral itself is clearly visible. Like the ground around you, it seems to be made entirely of seamlessly melded pieces of stone - you have no idea how the stones might be joined, but surely no one would carve something this large by hand. No single rock could be so large. Regardless of its construction, the stone is a dark, matte colour that contrasts sharply with the ground beneath your feet. To your north is a massive gate, which currently stands ajar.&#x000A;&#x000A;You can see a massive gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C820"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C820">
+    <command xml:space="preserve">examine gate</command>
+    <result xml:space="preserve">A massive gate, built as if for giants. Thankfully, it is open a small distance - just large enough for you to squeeze inside&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C660">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">That's not something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C890"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C890">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Cathedral&#x000A;An imposing catehdral with sparse lighting.&#x000A;&#x000A;You can see a massive gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C900"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C900">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Entrance&#x000A;After a long walk, you arrive at the gate of a massive cathedral. The air shimmers around its edges, but the cathedral itself is clearly visible. Like the ground around you, it seems to be made entirely of seamlessly melded pieces of stone - you have no idea how the stones might be joined, but surely no one would carve something this large by hand. No single rock could be so large. Regardless of its construction, the stone is a dark, matte colour that contrasts sharply with the ground beneath your feet. To your north is a massive gate, which currently stands ajar.&#x000A;&#x000A;You can see a massive gate here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08F7C970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08F7C970">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">Expanse&#x000A;Looking around, you see nothing but the absurdly large - and absurdly flat - expanse of white stone. Nothing is visible to the south or to the west. Far to the east, where the ground meets the horizon, you see a collection of small, sharp bumps - a distant mountain range, perhaps? To the north, you see a faint shimmer on the horizon - as if the air itself is dancing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08AD8D30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08AD8D30">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Mountain Range&#x000A;After walking for what seems like hours, you arrive at a mountain range. The sides of the mountains are sheer cliffs, and the peaks stretch above you so high that you cannot crane your neck to see where they end. Ahead,  continuing to the east, you see the yawning darkness of a cave. Having travelled so far, you don't believe you have time to return to where you woke up.&#x000A;&#x000A;Home&#x000A;Your home is quaint.&#x000A;&#x000A;Without warning, you awaken with a start. You're unsure whether you accomplished everything you were supposed to, as the specifics are already drifting from your memory. There's nothing for it now, as the dream is long gone.&#x000A;&#x000A;&#x000A;&#x000A;    *** You have died ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08AD8DA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08AD8DA0">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">You awaken with a start on a strange, flat surface made of one continuous piece of stone. You've never seen this place before. In fact, you don't remember how you got here. You suspect you may be dreaming. However, your grandmother always put great stock in the power of dreams. She claimed they always happen for a reason, and you had best figure out that reason before consciousness returns you to your bed.&#x000A;&#x000A;The Black Cathedral&#x000A;A game created for a four hour IF jam by Matthew Darling&#x000A;Release 1 / Serial number 120903 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Expanse&#x000A;Looking around, you see nothing but the absurdly large - and absurdly flat - expanse of white stone. Nothing is visible to the south or to the west. Far to the east, where the ground meets the horizon, you see a collection of small, sharp bumps - a distant mountain range, perhaps? To the north, you see a faint shimmer on the horizon - as if the air itself is dancing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08AD8E10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08AD8E10">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Mountain Range&#x000A;After walking for what seems like hours, you arrive at a mountain range. The sides of the mountains are sheer cliffs, and the peaks stretch above you so high that you cannot crane your neck to see where they end. Ahead,  continuing to the east, you see the yawning darkness of a cave. Having travelled so far, you don't believe you have time to return to where you woke up.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08AD8E80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08AD8E80">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">The strange stone stretches before you, flat and featureless. Nothing interesting appears to lie in this direction, so you decide to stay where you are.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x08AD8EF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x08AD8EF0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">Mountain Cave&#x000A;I dunno it's a cave man.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x08F7C200">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Entrance&#x000A;After a long walk, you arrive at the gate of a massive cathedral. The air shimmers around its edges, but the cathedral itself is clearly visible. Like the ground around you, it seems to be made entirely of seamlessly melded pieces of stone - you have no idea how the stones might be joined, but surely no one would carve something this large by hand. No single rock could be so large. Regardless of its construction, the stone is a dark, matte colour that contrasts sharply with the ground beneath your feet. To your north is a massive gate, which currently stands ajar.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
